@@ -47,10 +47,6 @@ body {
     top: 250px;
 }
 /********* HEADER ***************/
-.header{
-    margin-top: 0;
-    padding: 0;
-}
 .head {
     align-items: center;
     display: flex;
@@ -61,8 +57,7 @@ body {
     padding-left: 10px;
 }
 .item-3 {
-    border: 2px solid red;
-    padding: 10px;
+    padding: 20px 30px;
 }
 .logo {
     font-weight: 900;
@@ -73,18 +68,15 @@ body {
     color: var(--color-text-2);
     font-size: var(--font-size-medium);
     margin-right: 10px;
+    padding: 10px 10px;
 }
 /********* BANNER ***************/
 .banner {
-    background-image: url("../img/banner-mobile.png");
+    background-image: url("../assets/banner-mobile.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 250px;
-   /* width: 100%;
-    */
-    margin: 0;
-    padding: 0;
 }
 /****** WINNERS ************/
 .win {
@@ -107,15 +99,13 @@ body {
     animation: none;
     color: var(--color-text-3);
     font-weight: 700;
-    padding: 0 px;
+    padding-right: 0;
     padding-left: 10px;
     z-index: 1;
 }
 .win p {
     animation: floatText linear 10s infinite;
     background: var(--color-border-primary);
-    margin: 0;
-    padding: 0px;
     white-space: nowrap;
 }
 @keyframes floatText {
@@ -185,14 +175,9 @@ body {
     text-transform: uppercase;
     text-align: left;
 }
-#egr-text {
+.egr-text {
     font-size: var(--font-size-large);
     padding-left: 10px;
-}
-.footer {
-    bottom:0;
-    margin: 0;
-    padding: 0;
 }
 .footer-icons {
     display: flex;
@@ -206,6 +191,7 @@ body {
 .icon-3, .icon-4, .icon-5 {
     align-content: space-between;
     flex-basis: 33.3%;
+    padding-top: 10px;
 }
 .legal {
     color: var(--color-text-6);
@@ -223,14 +209,19 @@ body {
         color: var(--color-text-2);
         font-size: var(--font-size-large);
         margin-right: 20px;
+        padding: 5px 10px;
+   }
+    #btn-btm {
+        margin: 30px 0;
+   }
+    #winners {
+        background: var(--color-primary);
    }
     .banner {
-        background-image: url("../img/banner-desktop.png");
+        background-image: url("../assets/banner-desktop.png");
         background-repeat: no-repeat;
         background-position: center;
         height: 350px;
-        margin: 0;
-        padding: 0;
    }
     .wrapper {
         display: flex;
@@ -242,23 +233,13 @@ body {
     .header {
         order: 1;
    }
-    #winners {
-        background: var(--color-primary);
-        justify-content: none;
-        padding-right: 5px;
-        padding-left: 30px;
-        z-index: 1;
-   }
     .win {
         background: var(--color-primary);
         border-bottom: thin solid var(--color-border-primary);
-        justify-content: center;
-        margin: 0;
         order: 2;
         padding: 0;
    }
     .win p {
-        animation: none;
         background: var(--color-primary);
         color: var(--color-text-4);
    }
@@ -271,6 +252,7 @@ body {
    }
     .games {
         flex-direction: row;
+        margin-top: 20px;
         padding: 0 3%;
    }
     .game-2 {
@@ -281,9 +263,9 @@ body {
    }
     .footer-icons {
         align-content: space-between;
-        padding: 0 30%;
+        padding: 0 20%;
    }
     .legal {
-        margin: 0 25%;
+        margin: 0 10%;
    }
 }
