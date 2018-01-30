@@ -24,3 +24,11 @@ Challenge description suggests that I can use CSS variables or $ for SASS ("All 
 <h3>Winners section</h3>
 
 - I assumed that winners sting is a sliding text in all the views so I have added animation to it in mobile, tablet and desktop views. 
+
+<h2>Code review by Geektastic</h2>
+
+The Code Review is available here: <a href="https://geektastic.com/code-review/public/3275dc925e3a49c4d224d45e865ec65e630de8f345fa9ec03238d1c564429488">Click me!</a>
+
+
+
+
