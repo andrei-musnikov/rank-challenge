@@ -1,4 +1,4 @@
-<h1>HTML5 & CSS3 challenge -> Langing page</h1>
+<h1>HTML5 & CSS3 challenge: Langing page</h1>
 
 <h3>Challenge for Junior Front-End Developer position</h3>
 
