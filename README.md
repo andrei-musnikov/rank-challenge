@@ -1,8 +1,8 @@
 <h1>HTML5 & CSS3 challenge: Langing page</h1>
 
-<h3>Challenge for Junior Front-End Developer position</h3>
+- Challenge for Junior Front-End Developer position</h3>
 
-- Assumptions
+<h1>Assumptions</h1>
 
 <h3>Comments</h3>
 
