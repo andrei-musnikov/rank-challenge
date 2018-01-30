@@ -1,8 +1,8 @@
-HTML5 & CSS3 challenge -> Langing page
+<h1>HTML5 & CSS3 challenge -> Langing page</h1>
 
-Challenge for Junior Front-End Developer position
+<h3>Challenge for Junior Front-End Developer position</h3>
 
-<h1>Assumptions</h1>
+<h2>Assumptions</h2>
 
 <h3>Comments</h3>
 
