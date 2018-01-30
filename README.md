@@ -2,7 +2,7 @@
 
 <h3>Challenge for Junior Front-End Developer position</h3>
 
-<h2>Assumptions</h2>
+- Assumptions
 
 <h3>Comments</h3>
 
